@@ -1,0 +1,91 @@
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(44, 33, 196);
+}
+.two{
+    background-color: white;
+    padding:20px;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 0 2px 8px whitesmoke;
+    border-radius: 5px;
+}
+.h2{
+   font: bold;
+   text-align: center;
+   font-size:40px;
+}
+.three{
+   padding:30px;
+}
+
+.text{
+   width: 100%;
+  padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   border-radius: 0.5rem;
+   outline: none;
+   margin: 0.5rem;
+   margin-left: -4px;
+}
+.email{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    margin: 0.5rem;
+    margin-left: -4px;
+  
+}
+
+.password{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    margin: 0.5rem;
+    margin-left: -4px;
+}
+
+.button{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding-top: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+    margin: 0.5rem;
+}
+.button:hover{
+   background-color: #2563eb;
+}
+.p{
+    margin-top:1rem;
+    text-align: center;
+}
+
+.b2{
+    color: #3b82f6;
+    margin-left: 0.25rem;
+    transition: text-decoration 0.2s ease-in-out;
+
+}
+.b2:hover{
+    text-decoration: underline;
+}
